@@ -12,3 +12,9 @@ sheet1['A4'].value = 14
 
 wb.save('Example1.xlsx')
 
+wb1 = openpyxl.load_workbook('Example1.xlsx')
+sheet1 = wb['Sheet']
+
+for i in range(1,5):
+    print(sheet1.cell(row = i , column = 1).value)
+    
