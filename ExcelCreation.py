@@ -1,4 +1,6 @@
 import openpyxl,os
+
+## Creation of new excel
 wb = openpyxl.Workbook()
 print(wb)
 print(wb.sheetnames)
@@ -12,6 +14,7 @@ sheet1['A4'].value = 14
 
 wb.save('Example1.xlsx')
 
+## opening a existing excel and reading excel
 wb1 = openpyxl.load_workbook('Example1.xlsx')
 sheet1 = wb['Sheet']
 
@@ -23,6 +26,8 @@ print(wb1.sheetnames)
 wb1.create_sheet('New Sheet 1')
 
 print(wb1.sheetnames)
+
+## Changing the tiltle of sheet
 
 sheet2 = wb1['New Sheet 1']
 sheet2.title = 'New Sheet 2'
