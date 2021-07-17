@@ -17,4 +17,14 @@ sheet1 = wb['Sheet']
 
 for i in range(1,5):
     print(sheet1.cell(row = i , column = 1).value)
+
+print(wb1.sheetnames)
+
+wb1.create_sheet('New Sheet 1')
+
+print(wb1.sheetnames)
+
+sheet2 = wb1['New Sheet 1']
+sheet2.title = 'New Sheet 2'
     
+print(wb1.sheetnames)
