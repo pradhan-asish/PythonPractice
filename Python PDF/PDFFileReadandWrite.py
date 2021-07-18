@@ -11,3 +11,4 @@ for i in range(reader.numPages):
     print('Page:'+str(i))
     print(reader.getPage(i).extractText())
 
+pdfFile.close()
