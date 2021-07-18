@@ -21,7 +21,7 @@ for i in range(reader2.numPages):
 
 
 ##To create and write a new file
-pdf3 = open('MergedFile','wb')
+pdf3 = open('MergedFile.pdf','wb')
 writer.write(pdf3)
 pdf3.close()
 pdfFile1.close()
