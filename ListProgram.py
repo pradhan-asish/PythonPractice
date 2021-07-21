@@ -20,3 +20,18 @@ print(myList[:2])
 print(myList[2:])
 print('+++++++++++++++++')
 
+## manipulate list item
+#Insert
+
+myList.insert(2,"Berry")
+myList.append("Watermelon")
+print(myList)
+
+
+print('+++++++++++++++++')
+
+## to append another list to the current list
+
+appendList = ["Papaya","Apple","Pineapple"]
+myList.extend(appendList)
+print(myList)
