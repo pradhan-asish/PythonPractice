@@ -35,6 +35,7 @@ print('+++++++++++++++++')
 appendList = ["Papaya","Apple","Pineapple","Pea","Pie"]
 myList.extend(appendList)
 print(myList)
+print('+++++++++++++++++')
 
 ##Remove, delete or clear elements from list
 
@@ -46,3 +47,18 @@ del appendList[0]
 appendList.clear()
 print(appendList)
 del appendList
+print('+++++++++++++++++')
+
+
+##loop
+print('++++++ For+++++++++++')
+for x in myList:
+    print(x)
+
+print('++++++While+++++++++++')
+i= 0
+while i < len(myList):
+    print(myList[i])
+    i=i+1
+print('++++++One Line+++++++++++')
+[print(z) for z in myList]
