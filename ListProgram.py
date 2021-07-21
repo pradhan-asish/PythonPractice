@@ -62,3 +62,12 @@ while i < len(myList):
     i=i+1
 print('++++++One Line+++++++++++')
 [print(z) for z in myList]
+
+##sorting of list
+numList = [1,2,3,4,32,43,12,9,0]
+print('++++++Sorting ascending+++++++++++')
+numList.sort()
+print(numList)
+print('++++++Sorting descending+++++++++++')
+numList.sort(reverse = True)
+print(numList)
