@@ -32,6 +32,17 @@ print('+++++++++++++++++')
 
 ## to append another list to the current list
 
-appendList = ["Papaya","Apple","Pineapple"]
+appendList = ["Papaya","Apple","Pineapple","Pea","Pie"]
 myList.extend(appendList)
 print(myList)
+
+##Remove, delete or clear elements from list
+
+appendList.pop(1)
+print(appendList)
+appendList.pop()
+print(appendList)
+del appendList[0]
+appendList.clear()
+print(appendList)
+del appendList
