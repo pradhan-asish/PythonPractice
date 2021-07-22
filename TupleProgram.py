@@ -1,6 +1,6 @@
 ################Tuples###############
 ##Ordered, Unchangeable, Allow Duplicates##
-myTuple = ("apple","banana","guava","orange","papaya")
+myTuple = ("apple","banana","guava","banana","apple")
 print(myTuple)
 
 
@@ -29,6 +29,11 @@ k = myTuple + l
 print(k)
 print('+++Multiply by 2+++')
 print(k*2)
+
+##Tuple Counts and index
+
+print(myTuple.count("apple"))
+print(myTuple.index("banana"))
 
 
 
