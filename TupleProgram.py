@@ -17,5 +17,18 @@ y.append("kiwi")
 myTuple = tuple(y)
 print(myTuple)
 
+z = list(myTuple)
+z.remove("banana")
+myTuple= tuple(z)
+print(myTuple)
+
+##Joins and Multiply Tuple
+print('+++Joins and Multiply+++')
+l = ("red","berry")
+k = myTuple + l
+print(k)
+print('+++Multiply by 2+++')
+print(k*2)
+
 
 
