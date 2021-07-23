@@ -18,3 +18,9 @@ thisset.add("orange")
 print(thisset)
 
 
+print("++++++++++to remove an element+++++++++++")
+thisset.remove("orange")
+thisset.pop()
+print(thisset)
+
+print("++++++++++joining in set+++++++++++")
