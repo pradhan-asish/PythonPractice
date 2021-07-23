@@ -12,3 +12,11 @@ thisDict = {"brand" : "BMW",
 print(thisDict)
 print('++++++How to access dictionary++++++')
 print(thisDict["brand"])
+print('++++++How to access dictionary++++++')
+x= thisDict.keys()
+print('++++++Dictionary keys++++++')
+print(x)
+
+y = thisDict.values()
+print('++++++Dictionary values++++++')
+print(y)
