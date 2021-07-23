@@ -23,3 +23,7 @@ print(y)
 
 thisDict["color"]  =  "red"
 print(thisDict)
+
+print('++++++Values using get statement++++++')
+x = thisDict.get("model")
+print(x)
