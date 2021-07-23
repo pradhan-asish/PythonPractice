@@ -11,3 +11,10 @@ for x in thisset:
 
 print("++++++++++to check a element exists or not+++++++++++")
 print("red" in thisset)
+
+
+print("++++++++++to add an element+++++++++++")
+thisset.add("orange")
+print(thisset)
+
+
