@@ -20,3 +20,6 @@ print(x)
 y = thisDict.values()
 print('++++++Dictionary values++++++')
 print(y)
+
+thisDict["color"]  =  "red"
+print(thisDict)
