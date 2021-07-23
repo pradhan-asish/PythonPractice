@@ -24,3 +24,22 @@ thisset.pop()
 print(thisset)
 
 print("++++++++++joining in set+++++++++++")
+print("++Intersection++")
+y = {"yellow","blue","red","white"}
+z= thisset.intersection(y)
+print(z)
+
+print("++Intersection Update++")
+y = {"yellow","blue","red","white"}
+y.intersection_update(thisset)
+print(y)
+
+print("++Symmetric Difference Update ++")
+y = {"yellow","blue","red","white"}
+z= thisset.symmetric_difference_update(y)
+print(z)
+
+print("++Symmetric difference++")
+y = {"yellow","blue","red","white"}
+z= thisset.symmetric_difference(y)
+print(z)
