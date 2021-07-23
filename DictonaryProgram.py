@@ -27,3 +27,15 @@ print(thisDict)
 print('++++++Values using get statement++++++')
 x = thisDict.get("model")
 print(x)
+
+print('++++++year updationt++++++')
+thisDict.update({"year": 2010})
+print(thisDict)
+
+#####Loop
+for x in thisDict:
+    print(x)
+
+print('++++++items access++++++')
+for x,y in thisDict.items():
+    print(x,y)
