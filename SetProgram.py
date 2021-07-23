@@ -1,6 +1,13 @@
 ###########Set##############
-##Unordered and Inchangeable
+##Unordered and Unchangeable
 
 thisset = {"red","orange","white","purple","violet"}
 
 print(thisset)
+
+print("++++++++++to access data using loop+++++++++++")
+for x in thisset:
+    print(x)
+
+print("++++++++++to check a element exists or not+++++++++++")
+print("red" in thisset)
