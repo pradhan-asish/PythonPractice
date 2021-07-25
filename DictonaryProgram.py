@@ -39,3 +39,12 @@ for x in thisDict:
 print('++++++items access++++++')
 for x,y in thisDict.items():
     print(x,y)
+
+
+
+##Copy dictionaries
+print('++++++items copied++++++')
+copyDict = thisDict.copy()
+print(copyDict)
+
+
